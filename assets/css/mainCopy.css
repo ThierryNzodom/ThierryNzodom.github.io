@@ -7,6 +7,8 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
+/* 1
+
 html, body, div, span, applet, object,
 iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
 pre, a, abbr, acronym, address, big, cite,
@@ -74,6 +76,7 @@ input, select, textarea {
 
 /* Basic */
 
+/* 2
 	@-ms-viewport {
 		width: device-width;
 	}
@@ -115,6 +118,7 @@ input, select, textarea {
 
 /* Type */
 
+/* 3
 	html {
 		font-size: 16pt;
 	}
@@ -324,6 +328,7 @@ input, select, textarea {
 
 /* Row */
 
+/* 4
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -2958,12 +2963,6 @@ input, select, textarea {
 				text-align: center;
 			}
 
-				header.major > p.thick {
-					margin-top: 0;
-					text-align: center;
-					font-weight: bolder;
-				}
-
 			header.major > .date {
 				font-size: 1rem;
 				margin: 0 0 4rem 0;
@@ -4695,7 +4694,7 @@ input, select, textarea {
 	}
 	
 	#particles-js {
-		background-image: url("../../images/overlay.png");
+		background-image: url(bg-image);
 		background-size: cover;
 		height: 100;
 		background: rgb(112, 89, 89);
